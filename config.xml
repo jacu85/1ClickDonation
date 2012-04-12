@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.crowdm.1clickdonation"
+        versionCode="10"
+        version   = "1.0.1">
+
+    <name>1Clickdonation</name>
+
+    <description>1Clickdonation applicazione</description>
+
+    <author href="http://www.crowdm.com" email="info@crowdm.com">CrowdM</author>
+    
+    <preference name="phonegap-version" value="1.5.0" />
+    
+    <preference name="orientation" value="default" />
+    
+    <preference name="target-device" value="universal" />
+    
+    <preference name="fullscreen" value="true" />
+    
+    <icon src="icons/icon.png" />
+    
+    <icon src="icons/icon.png" default="true" />
+    
+    <icon src="icons/icon-hover.png" hover="true" />
+    
+    <icon src="icons/icon-iphone-57.png" width="57" height="57"/>
+    <icon src="icons/icon-iphone-72.png" width="72" height="72"/>
+    <icon src="icons/icon-iphone-114.png" width="114" height="114"/>
+    
+    <icon src="icons/icon-android-36.png" width="36" height="36"/>
+    <icon src="icons/icon-android-48.png" width="48" height="48"/>
+    <icon src="icons/icon-android-72.png" width="72" height="72"/>
+    
+    <gap:splash src="splashes/splash.png" />    
+    
+    <gap:splash src="splashes/splash.png"/>
+    <gap:splash src="splashes/retina.png" width="640" height="960"/>
+    <gap:splash src="splashes/ipad-portrait.png" width="768" height="1004"/>
+    <gap:splash src="splashes/ipad-landscape.png" width="1024" height="748"/>
+    
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    
+    <access origin="*" subdomains="true" />
+
+</widget>

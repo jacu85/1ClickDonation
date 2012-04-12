@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title>PhoneGap</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+  <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+</head>
+<body>
+  <div data-role="page" id="home"> 
+    <div data-role="header"> 
+      <h1>AlternativeTo Home</h1> 
+    </div> 
+    <div data-role="content">
+      <p>Find Alternatives To Your favourite Softwares </p>
+      <p><a href="#search" data-role="button">Search Alternatives</a></p>    
+      <p><a href="#recent" data-role="button">Recent Alternatives</a></p>
+    </div> 
+  </div> 
+  <div data-role="page" id="search"> 
+    <div data-role="header" data-position="fixed"> 
+      <h1>Search Alternatives</h1> 
+	<div class="class= ui-body ui-body-b"> 
+	<input type="text" name="search" id="searchBox" value="" data-theme="a" /> 
+	<button type="submit" data-theme="a" id="searchButton">Search</button>     
+      </div>
+    </div>
+    <div data-role="content"> 
+    <ul data-role="listview" id="list"></ul> 
+    </div> 
+  </div>
+  <div data-role="page" id="recent"> 
+    <div data-role="header"> 
+      <h1> Recent Alternatives</h1> 
+    </div> 
+    <div data-role="content"> 
+      <p>This app rocks!</p> 
+    </div>
+  </div>
+</body>
+</html>
